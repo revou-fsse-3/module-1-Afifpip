@@ -21,10 +21,10 @@ You can call me Afif. I graduated from *Zhejiang University of Technology*, Soft
 * <img src="assets/Linkedn.png" height="10"> My Linkedn [Muhammad Afif Firos Fikri](https://www.linkedin.com/in/afiffikri/)
 
 ## My Example Table
-| Number | English | Mandarin |
-| :----: | :-----: | :------: |
-|   1    |   one   |    yi    |
-|   2    |   two   |    er    |
-|   3    |  three  |   san    |
-|   4    |  four   |    si    |
-|   5    |  five   |    wu    |
+| Number | English | Mandarin  |
+| :----: | :-----: | :-------: |
+|   1    |   one   | 一（yi）  |
+|   2    |   two   | 二（er）  |
+|   3    |  three  | 三（san） |
+|   4    |  four   | 四（si）  |
+|   5    |  five   | 五（wu）  |
