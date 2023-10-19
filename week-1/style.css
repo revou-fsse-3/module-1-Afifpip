@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 1rem;
+}
+
+li {
+  margin: 1rem;
+  padding: 0 1px;
+  float: right;
+  list-style: none;
+}
+
+.logo-shibuya img {
+  width: 100px;
+  position: fixed;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+nav a {
+  width: 100px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-align: center;
+}
