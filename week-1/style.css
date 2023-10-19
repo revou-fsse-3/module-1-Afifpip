@@ -61,10 +61,52 @@ header {
   font-family: 'Kalam', cursive;
   text-align: center;
   color: white;
-  background-color: #222222;
-  height: 320px;
+  background-color: #1e1e1e;
+  height: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 48px;
+  padding-top: 2rem;
+}
+
+.reserve-now {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+
+.reserve-now a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  padding: 15px;
+  border: 2px solid #eb9653;
+}
+
+/* visited link */
+.reserve-now a:visited {
+  padding: 15px;
+  margin: auto;
+  border: 2px solid #eb9653;
+  color: #eb9653;
+}
+
+/* mouse over link */
+.reserve-now a:hover {
+  color: #7d444f;
+  padding: 15px;
+  background-color: #eb9653;
+}
+
+/* selected link */
+a:active {
+  color: rgb(94, 91, 91);
+}
+
+section {
+  margin: 0 16px;
+  text-align: center;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-around;
 }
