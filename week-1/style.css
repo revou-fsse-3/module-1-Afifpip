@@ -1,6 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  /* background-image: url(assets/background-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center top; */
 }
 
 nav {
@@ -9,7 +12,7 @@ nav {
 
 ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 0 1rem;
 }
 
@@ -20,11 +23,31 @@ li {
   list-style: none;
 }
 
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(94, 91, 91);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(0, 0, 0);
+
+}
+
+/* selected link */
+a:active {
+  color: rgb(94, 91, 91);
+}
+
 .logo-shibuya img {
   width: 100px;
   position: fixed;
-  margin-top: 15px;
-  margin-left: 10px;
+  margin: 10px 0 0 10px;
 }
 
 nav a {
@@ -32,4 +55,16 @@ nav a {
   padding: 20px 15px;
   text-decoration: none;
   text-align: center;
+}
+
+header {
+  font-family: 'Kalam', cursive;
+  text-align: center;
+  color: white;
+  background-color: #222222;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 48px;
 }
