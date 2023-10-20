@@ -1,26 +1,31 @@
 body {
   margin: 0;
   padding: 0;
-  /* background-image: url(assets/background-image.jpg);
-  background-repeat: no-repeat;
-  background-position: center top; */
 }
 
-nav {
+.nav-menu {
+  height: auto;
   width: 100%;
-}
-
-ul {
+  top: 0;
   display: flex;
   justify-content: center;
-  margin: 0 1rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-li {
-  margin: 1rem;
-  padding: 0 1px;
-  float: right;
+#nav-logo {
+  width: 100px;
+  margin-left: 16px;
+  margin-right: 538px;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
   list-style: none;
+  padding: 0;
 }
 
 
@@ -44,12 +49,6 @@ a:active {
   color: rgb(94, 91, 91);
 }
 
-.logo-shibuya img {
-  width: 100px;
-  position: fixed;
-  margin: 10px 0 0 10px;
-}
-
 nav a {
   width: 100px;
   padding: 20px 15px;
@@ -61,44 +60,12 @@ header {
   font-family: 'Kalam', cursive;
   text-align: center;
   color: white;
-  background-color: #1e1e1e;
+  background-color: #1e1e2a;
   height: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 2rem;
-}
-
-.reserve-now {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 25px;
-}
-
-.reserve-now a {
-  color: rgb(255, 0, 0);
-  text-decoration: none;
-  padding: 15px;
-  border: 2px solid #eb9653;
-}
-
-/* visited link */
-.reserve-now a:visited {
-  padding: 15px;
-  margin: auto;
-  border: 2px solid #eb9653;
-  color: #eb9653;
-}
-
-/* mouse over link */
-.reserve-now a:hover {
-  color: #7d444f;
-  padding: 15px;
-  background-color: #eb9653;
-}
-
-/* selected link */
-a:active {
-  color: rgb(94, 91, 91);
 }
 
 section {
@@ -109,4 +76,54 @@ section {
 .grid-container {
   display: flex;
   justify-content: space-around;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  padding: 4px 4px;
+  margin: 8px 0;
+
+}
+
+.reservation {
+  background-color: #44404d;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 5rem;
+}
+
+.form-reservation {
+  color: white;
+  padding: 8px;
+}
+
+button[type="submit"] {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-top: 1rem;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:visited {
+  padding: 15px;
+  margin: auto;
+}
+
+button:hover {
+  color: #7d444f;
+  /* padding: 15px; */
+  background-color: white;
+}
+
+button:active {
+  color: rgb(94, 91, 91);
 }
