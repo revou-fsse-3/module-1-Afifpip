@@ -78,6 +78,10 @@ section {
   justify-content: space-around;
 }
 
+aside {
+  padding-bottom: 15px;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="number"],
