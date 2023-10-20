@@ -8,4 +8,4 @@ Assignment Example for Week 1 - Making a landing web page
 - Style your form to align with your website's design.
 
 **Result Sample Website** 
-(https://main--lighthearted-axolotl-1297e7.netlify.app/)
+(https://lighthearted-axolotl-1297e7.netlify.app/)
