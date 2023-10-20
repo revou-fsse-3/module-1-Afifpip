@@ -15,11 +15,9 @@
 
 <body>
   <nav>
-    <div class="logo-shibuya">
-      <img src="/week-1/assets/Logo.jpg" alt="logo">
-    </div>
-    <div>
-      <ul>
+    <div class="nav-menu">
+      <img id="nav-logo" src="/week-1/assets/Logo.jpg" alt="logo">
+      <ul class="nav-center">
         <li><a href="#">Menu</a></li>
         <li><a href="#">Home</a></li>
         <li><a href="#">Contact</a></li>
@@ -30,9 +28,9 @@
   <header class="full-screen">
     <h1>WELCOME TO SHIBUYA SUSHI</h1>
     <h2>Caution! Our sushi is addictive</h2>
-    <div class="reserve-now">
+    <!-- <div class="reserve-now">
       <a href="#">RESERVE NOW</a>
-    </div>
+    </div> -->
   </header>
 
   <main>
@@ -60,6 +58,69 @@
         </div>
       </div>
     </section>
+
+    <section class="reservation">
+      <aside>
+        <h2>Our chef profile</h2>
+        <iframe width="500" height="400" src="https://www.youtube.com/embed/JkeRhKnROds"
+          title="Saito: The Sushi God of Tokyo" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </aside>
+
+      <div class="form-reservation">
+        <h2>Reservation</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Personal Data :</legend>
+            <div>
+              <label for="firstName">First Name : </label>
+              <input id="firstName" type="text" required>
+              <label for="lastName">Last Name : </label>
+              <input id="lastName" type="text" required>
+            </div>
+
+            <div>
+              <label for="email">Email : </label>
+              <input id="email" type="email">
+              <label for="phoneNum">Phone : </label>
+              <input id="email" type="number">
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Additional Information : </legend>
+            <div>
+              <label for="date">Date : </label>
+              <input type="date" id="date">
+              <label for="pax">Pax : </label>
+              <select name="pax" id="pax">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <label for="occasion">Occasion : </label>
+              <select name="occasion" id="occasion">
+                <option value="no-event">No Event</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="birthday">Birthday</option>
+                <option value="anniversary">Anniversary</option>
+              </select>
+            </div>
+
+            <div>
+              <p>Additional Request : </p>
+              <textarea cols="50" rows="3"></textarea>
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
   </main>
 </body>
 
