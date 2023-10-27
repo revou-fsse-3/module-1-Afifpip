@@ -1,0 +1,21 @@
+/* .hamburger {
+  display: none;
+}
+
+.nav-center {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-center {
+    display: none;
+  }
+} */
