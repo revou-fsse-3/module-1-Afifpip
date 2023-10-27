@@ -23,4 +23,13 @@
   .nav-right {
     display: none;
   }
+
+  .grid-container {
+    display: block;
+    align-items: center;
+  }
+
+  .reservation {
+    display: block;
+  }
 }
