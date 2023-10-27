@@ -4,26 +4,21 @@ body {
 }
 
 .nav-menu {
-  height: auto;
-  width: 100%;
-  top: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin: 0;
-  padding: 0;
+  position: sticky;
+  top: 0;
 }
 
 #nav-logo {
   width: 100px;
   margin-left: 16px;
-  margin-right: 538px;
 }
 
 .nav-center {
   display: flex;
   justify-content: center;
-  margin-right: auto;
   list-style: none;
   padding: 0;
 }
@@ -54,6 +49,8 @@ nav a {
   padding: 20px 15px;
   text-decoration: none;
   text-align: center;
+  position: sticky;
+  top: 0;
 }
 
 header {
